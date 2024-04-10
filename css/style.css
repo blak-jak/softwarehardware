@@ -1,0 +1,116 @@
+*{
+    color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    
+}
+.contenedor{
+    border: solid blue 1px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   
+}
+.contenedor-encabezado{
+    border: solid white 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.encabezado-izquierda{
+    display: flex;    
+    align-items: center;
+}
+.izquierda-logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 10px;
+}
+.encabezado-derecha{
+
+}
+.contenedor-mein{
+    display: flex;
+
+    justify-content: center;
+}
+.tarjeta1{
+    display: flex;
+    background-color:#0d1117;
+    border: solid white 1px;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta2{
+    background-color:#424242 ;
+    border: solid white 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+text-align: center;
+} 
+
+
+.video{
+
+}
+
+
+.tarjeta3{
+    display: flex;
+    background-color: #0d1117;
+    border: solid white 1px;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color: #303030;
+}
+.canalt{
+    color: rgb(0, 128, 122);
+    font-size:20px ;
+}
+.canald{
+    color: rgb(42, 91, 165);
+    font-size:20px ;
+}
+.trabajo1{
+    color: rgb(0, 128, 122);
+    font-size:20px ;
+}
+.trabajo2{
+    color: rgb(42, 91, 165);
+    font-size:20px ;
+}
+li{
+    padding: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313431; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+    text-decoration: none; /* Sin subrayado */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
